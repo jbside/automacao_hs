@@ -1,4 +1,4 @@
-import tela_principal as screen_home 
+import classes.tela_principal as screen_home 
 import customtkinter
 
 customtkinter.set_appearance_mode("light")
