@@ -1,9 +1,7 @@
-import classes.tela_principal as screen_home 
+from classes.tela_principal import telaPrincipal 
 import customtkinter
 
-customtkinter.set_appearance_mode("light")
+customtkinter.set_appearance_mode("dark")
 
-home_tk = screen_home.telaPrincipal()
-
-
+home_tk = telaPrincipal()
 home_tk.mainloop()
