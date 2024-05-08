@@ -1,5 +1,5 @@
-from classes.tela_principal import telaPrincipal 
-import customtkinter
+from classes.TelaPrincipal import telaPrincipal 
+import customtkinter # type: ignore
 
 customtkinter.set_appearance_mode("dark")
 
